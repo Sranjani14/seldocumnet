@@ -1,0 +1,21 @@
+<option value="6">June</option>
+
+
+<content class="vRMGwf oJeWuf">
+India 
+<span class="CO1lLb" dir="ltr">+91</span>
+</content>
+
+
+<option value="2">Female</option>
+
+//div[@id='draggable']
+
+//div[@class='inside_contain']
+
+
+//a[@id='ui-id-5']
+
+//li[@class='ui-corner-left ui-draggable ui-draggable-handle']
+
+//li[@class='placeholder ui-corner-left']
