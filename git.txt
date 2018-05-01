@@ -1,0 +1,119 @@
+
+acer@acer-PC MINGW32 ~
+$ d:
+bash: d:: command not found
+
+acer@acer-PC MINGW32 ~
+$ cd d:
+bash: cd: d:: No such file or directory
+
+acer@acer-PC MINGW32 ~
+$ cd E:
+
+acer@acer-PC MINGW32 /e
+$ mkdir repo
+
+acer@acer-PC MINGW32 /e
+$ cd repo
+
+acer@acer-PC MINGW32 /e/repo
+$ git init
+Initialized empty Git repository in E:/repo/.git/
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        111.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git add 111.txt
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git commit -m "learning"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'acer@acer-PC.(none)')
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git config --global user.email "sranjani.sahaj@gmail.com"
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git config --global user.name "Sranjani14"
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git commit -m "learning"
+[master (root-commit) 1d37bf9] learning
+ 1 file changed, 21 insertions(+)
+ create mode 100644 111.txt
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git remote add origin https://github.com/Sranjani14/seldocumnet.git
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 420 bytes | 210.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Sranjani14/seldocumnet.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        frames.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git add frames.html
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git commit -m"frmes documnet"
+[master ec610c5] frmes documnet
+ 1 file changed, 11 insertions(+)
+ create mode 100644 frames.html
+
+acer@acer-PC MINGW32 /e/repo (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 453 bytes | 151.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Sranjani14/seldocumnet.git
+   1d37bf9..ec610c5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
